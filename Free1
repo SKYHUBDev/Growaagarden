@@ -9,4 +9,401 @@
 
 ]]--
 
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then local v88=0;while true do if (v88==0) then v19=v0(v3(v30,1,1));return "";end end else local v89=v2(v0(v30,16));if v19 then local v108=v5(v89,v19);v19=nil;return v108;else return v89;end end end);local function v20(v31,v32,v33) if v33 then local v90=(v31/(2^(v32-(2 -(1 + 0)))))%((5 -3)^(((v33-(1 -0)) -(v32-(2 -1))) + 1 + 0)) ;return v90-(v90%(620 -((1432 -(282 + 595)) + (1701 -(1523 + 114))))) ;else local v91=2^(v32-((838 + 94) -(857 + 74))) ;return (((v31%(v91 + v91))>=v91) and (569 -(367 + 201))) or (927 -(214 + 713)) ;end end local function v21() local v34=0;local v35;while true do if (v34==(1 -0)) then return v35;end if (v34==(1065 -(68 + 997))) then v35=v1(v16,v18,v18);v18=v18 + ((1388 -(32 + 85)) -(226 + 1024 + 20)) ;v34=4 -3 ;end end end local function v22() local v36,v37=v1(v16,v18,v18 + 1 + 1 );v18=v18 + (959 -(892 + 65)) ;return (v37 * (610 -354)) + v36 ;end local function v23() local v38=0 -0 ;local v39;local v40;local v41;local v42;while true do if (v38==(1 -0)) then return (v42 * (16777566 -(87 + 263))) + (v41 * (65716 -(67 + 113))) + (v40 * (188 + 68)) + v39 ;end if (v38==0) then v39,v40,v41,v42=v1(v16,v18,v18 + (7 -4) );v18=v18 + (11 -8) + 1 ;v38=1;end end end local function v24() local v43=v23();local v44=v23();local v45=1;local v46=(v20(v44,953 -(802 + 150) ,53 -33 ) * ((3 -1)^(24 + 8))) + v43 ;local v47=v20(v44,(1460 -(416 + 26)) -(915 + 82) ,87 -56 );local v48=((v20(v44,19 + 13 )==(1 -(0 -0))) and  -(1188 -(1069 + 118))) or (1 + 0) ;if (v47==(0 -0)) then if (v46==(0 -0)) then return v48 * (0 + 0) ;else v47=1 -0 ;v45=0 + 0 ;end elseif (v47==(3621 -1574)) then return ((v46==((1229 -(145 + 293)) -(368 + 423))) and (v48 * ((3 -2)/0))) or (v48 * NaN) ;end return v8(v48,v47-((1471 -(44 + 386)) -(10 + 8)) ) * (v45 + (v46/((7 -5)^52))) ;end local function v25(v49) local v50;if  not v49 then v49=v23();if (v49==(1486 -(998 + 488))) then return "";end end v50=v3(v16,v18,(v18 + v49) -1 );v18=v18 + v49 ;local v51={};for v67=1 + 0 , #v50 do v51[v67]=v2(v1(v3(v50,v67,v67)));end return v6(v51);end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v52=(function() return function(v92,v93,v94,v95,v96,v97,v98,v99) local v92=(function() return 0;end)();local v93=(function() return;end)();local v95=(function() return;end)();while true do if (v92==(0 -0)) then local v113=(function() return 1262 -(1091 + 171) ;end)();local v114=(function() return;end)();while true do if (v113==(0 + 0)) then v114=(function() return 0 -0 ;end)();while true do if (v114==0) then v93=(function() return v94();end)();v95=(function() return nil;end)();v114=(function() return 3 -2 ;end)();end if ((375 -(123 + 251))~=v114) then else v92=(function() return  #",";end)();break;end end break;end end end if (v92~= #".") then else if (v93== #"!") then v95=(function() return v94()~=(0 -0) ;end)();elseif (v93==2) then v95=(function() return v96();end)();elseif (v93~= #"xxx") then else v95=(function() return v97();end)();end v98[v99]=(function() return v95;end)();break;end end return v92,v93,v94,v95,v96,v97,v98,v99;end;end)();local v53=(function() return function(v100,v101,v102) local v103=(function() return 0;end)();local v104=(function() return;end)();while true do if (v103==(698 -(208 + 490))) then v104=(function() return 0;end)();while true do if (v104==0) then local v120=(function() return 0 + 0 ;end)();local v121=(function() return;end)();while true do if (v120==0) then v121=(function() return 0;end)();while true do if (v121~=0) then else v100[v101-#"!" ]=(function() return v102();end)();return v100,v101,v102;end end break;end end end end break;end end end;end)();local v54=(function() return {};end)();local v55=(function() return {};end)();local v56=(function() return {};end)();local v57=(function() return {v54,v55,nil,v56};end)();local v58=(function() return v23();end)();local v59=(function() return {};end)();for v69= #"[",v58 do FlatIdent_1743D,Type,v21,Cons,v24,v25,v59,v69=(function() return v52(FlatIdent_1743D,Type,v21,Cons,v24,v25,v59,v69);end)();end v57[ #"-19"]=(function() return v21();end)();for v70= #">",v23() do local v71=(function() return 0;end)();local v72=(function() return;end)();while true do if (v71~=(0 + 0)) then else v72=(function() return v21();end)();if (v20(v72, #"]", #"\\")==(836 -(660 + 176))) then local v116=(function() return 0;end)();local v117=(function() return;end)();local v118=(function() return;end)();local v119=(function() return;end)();while true do if ((1 + 2)==v116) then if (v20(v118, #"91(", #"asd")~= #",") then else v119[ #".dev"]=(function() return v59[v119[ #"0313"]];end)();end v54[v70]=(function() return v119;end)();break;end if (v116~=(203 -(14 + 188))) then else local v123=(function() return 675 -(534 + 141) ;end)();while true do if (v123==(0 + 0)) then local v128=(function() return 0;end)();while true do if (v128==1) then v123=(function() return 1;end)();break;end if (0~=v128) then else v119=(function() return {v22(),v22(),nil,nil};end)();if (v117==(0 + 0)) then local v356=(function() return 0;end)();local v357=(function() return;end)();while true do if (v356~=0) then else v357=(function() return 0 + 0 ;end)();while true do if (v357~=0) then else v119[ #"19("]=(function() return v22();end)();v119[ #"asd1"]=(function() return v22();end)();break;end end break;end end elseif (v117== #"~") then v119[ #"19("]=(function() return v23();end)();elseif (v117==2) then v119[ #"asd"]=(function() return v23() -(2^(33 -17)) ;end)();elseif (v117== #"xxx") then local v509=(function() return 0;end)();local v510=(function() return;end)();while true do if (v509~=0) then else v510=(function() return 0;end)();while true do if (v510==(0 -0)) then v119[ #"-19"]=(function() return v23() -(2^(44 -28)) ;end)();v119[ #"asd1"]=(function() return v22();end)();break;end end break;end end end v128=(function() return 1;end)();end end end if ((1 + 0)~=v123) then else v116=(function() return 2 + 0 ;end)();break;end end end if (v116==(398 -(115 + 281))) then if (v20(v118, #"!", #"[")~= #"\\") then else v119[4 -2 ]=(function() return v59[v119[2 + 0 ]];end)();end if (v20(v118,4 -2 ,7 -5 )~= #",") then else v119[ #"-19"]=(function() return v59[v119[ #"xnx"]];end)();end v116=(function() return 3;end)();end if (v116==(867 -(550 + 317))) then local v124=(function() return 0 -0 ;end)();while true do if (v124~=(0 -0)) then else v117=(function() return v20(v72,5 -3 , #"xxx");end)();v118=(function() return v20(v72, #"asd1",6);end)();v124=(function() return 1;end)();end if (v124~=1) then else v116=(function() return 1;end)();break;end end end end end break;end end end for v73= #"~",v23() do v55,v73,v28=(function() return v53(v55,v73,v28);end)();end return v57;end local function v29(v61,v62,v63) local v64=v61[1];local v65=v61[2];local v66=v61[3];return function(...) local v74=v64;local v75=v65;local v76=v66;local v77=v27;local v78=1;local v79= -(286 -(134 + 151));local v80={};local v81={...};local v82=v12("#",...) -(1 -(0 + 0)) ;local v83={};local v84={};for v105=(872 + 1118) -((1727 -1145) + 1408) ,v82 do if (v105>=v76) then v80[v105-v76 ]=v81[v105 + (3 -2) ];else v84[v105]=v81[v105 + (1 -(0 + 0)) ];end end local v85=(v82-v76) + (3 -2) ;local v86;local v87;while true do v86=v74[v78];v87=v86[(3356 -1531) -(1195 + 629) ];if (v87<=56) then if (v87<=(35 -8)) then if (v87<=13) then if (v87<=(4 + 2)) then if (v87<=(243 -(187 + 54))) then if ((v87<=0) or (2136>=2946)) then v84[v86[782 -(162 + 618) ]][v84[v86[3 + 0 ]]]=v84[v86[3 + 1 ]];elseif ((2165<=2521) and (v87==(1 -0))) then local v180=v86[2 -0 ];v84[v180](v13(v84,v180 + 1 + 0 ,v79));else do return;end end elseif ((2861>661) and (v87<=((913 + 727) -(1373 + 263)))) then if (v87>(1003 -(451 + 549))) then local v181=v86[1 + 0 + 1 ];v84[v181]=v84[v181](v13(v84,v181 + 1 ,v86[3]));else local v183=0 -0 ;local v184;local v185;local v186;while true do if (v183==1) then v186={};v185=v10({},{__index=function(v455,v456) local v457=0 + 0 ;local v458;while true do if (v457==(0 -0)) then v458=v186[v456];return v458[1385 -(746 + 638) ][v458[1 + 1 ]];end end end,__newindex=function(v459,v460,v461) local v462=0;local v463;while true do if (v462==(0 -0)) then v463=v186[v460];v463[342 -(218 + 123) ][v463[1583 -(1535 + 46) ]]=v461;break;end end end});v183=2;end if (v183==(2 + 0)) then for v464=1 + 0 ,v86[(1628 -1064) -(306 + 254) ] do v78=v78 + 1 + 0 ;local v465=v74[v78];if ((4525>4519) and (v465[1]==((12 + 1) -6))) then v186[v464-1 ]={v84,v465[2 + 1 ]};else v186[v464-((2 + 0) -1) ]={v62,v465[3]};end v83[ #v83 + (291 -(60 + 230)) ]=v186;end v84[v86[2]]=v29(v184,v185,v63);break;end if (v183==((520 + 52) -(426 + 146))) then v184=v75[v86[1 + 2 ]];v185=nil;v183=1457 -(282 + 1174) ;end end end elseif (v87>5) then v84[v86[813 -(569 + 242) ]]=v84[v86[8 -5 ]][v84[v86[1 + 3 ]]];else do return v84[v86[1026 -(706 + 318) ]];end end elseif (v87<=(1260 -(721 + 385 + 145))) then if ((3178>972) and (v87<=(1278 -((1438 -493) + 326)))) then v84[v86[4 -2 ]]=v84[v86[3 + 0 + 0 ]];elseif ((4766==4766) and (v87>(708 -(271 + (1096 -(89 + 578)))))) then local v189=0;local v190;while true do if ((v189==(0 + 0)) or (2745>3128)) then v190=v86[1502 -(1408 + 92) ];v84[v190]=v84[v190](v13(v84,v190 + ((777 + 310) -((958 -497) + (1674 -(572 + 477)))) ,v79));break;end end else v84[v86[1290 -(993 + 295) ]]=v86[1 + 2 ];end elseif (v87<=(1182 -(418 + 753))) then if ((v87>(4 + 6)) or (1144>=4606)) then local v193=0 + 0 ;local v194;while true do if ((3338>=277) and (v193==(0 + 0 + 0 + 0))) then v194=v86[1 + 1 + 0 ];do return v13(v84,v194,v79);end break;end end else v63[v86[3]]=v84[v86[531 -(406 + (209 -(84 + 2))) ]];end elseif ((2610>2560) and (v87>(1781 -(1749 + (32 -12))))) then v84[v86[2]]=v63[v86[1 + 2 ]];else v84[v86[1324 -(1249 + 73) ]][v84[v86[2 + 1 ]]]=v86[1149 -(466 + 679) ];end elseif (v87<=(48 -28)) then if (v87<=16) then if ((v87<=(39 -(19 + 6))) or (1194>3083)) then v84[v86[1902 -(106 + 1794) ]][v86[3]]=v84[v86[2 + 2 ]];elseif (v87>(4 + 11)) then if (v84[v86[5 -(845 -(497 + 345)) ]]==v84[v86[10 -6 ]]) then v78=v78 + (115 -(4 + 110)) ;else v78=v86[587 -(2 + 55 + 527) ];end else local v201=1427 -(41 + 1386) ;local v202;while true do if (v201==(103 -(17 + 86))) then v202=v86[2 + 0 ];do return v13(v84,v202,v202 + v86[6 -3 ] );end break;end end end elseif (v87<=18) then if (v87>((9 + 40) -32)) then local v203=v86[168 -(122 + 44) ];local v204={};for v358=1, #v83 do local v359=v83[v358];for v396=0 -0 , #v359 do local v397=v359[v396];local v398=v397[3 -2 ];local v399=v397[2 + 0 ];if ((v398==v84) and (v399>=v203)) then v204[v399]=v398[v399];v397[1 + 0 ]=v204;end end end else v84[v86[2]]=v62[v86[3]];end elseif ((916>=747) and (v87==((1370 -(605 + 728)) -18))) then v84[v86[(48 + 19) -(30 + 35) ]]= #v84[v86[3 + 0 ]];else v84[v86[1259 -(1043 + 214) ]]=v86[11 -8 ] + v84[v86[1216 -(323 + 889) ]] ;end elseif (v87<=((135 -74) -38)) then if ((v87<=(601 -(361 + 219))) or (2444>2954)) then local v136=v86[322 -(3 + 50 + 267) ];local v137=v84[v136];local v138=v84[v136 + 2 ];if (v138>0) then if (v137>v84[v136 + 1 + 0 ]) then v78=v86[3];else v84[v136 + ((1537 -1121) -(15 + 398)) ]=v137;end elseif (v137<v84[v136 + (983 -(18 + 964)) ]) then v78=v86[(10 + 1) -8 ];else v84[v136 + 2 + 1 ]=v137;end elseif (v87>(14 + 8)) then local v209=v86[2];v84[v209]=v84[v209]();else v84[v86[852 -(20 + (2299 -1469)) ]]=v84[v86[3 + 0 ]][v84[v86[130 -(116 + 10) ]]];end elseif (v87<=(2 + 23)) then if (v87>(762 -(410 + 132 + 196))) then v84[v86[3 -(490 -(457 + 32)) ]]=v86[1 + 2 ]~=(0 + 0) ;else v84[v86[1 + 1 ]]=v84[v86[3]] + v84[v86[10 -(3 + 3) ]] ;end elseif (v87==26) then local v215=v86[4 -2 ];local v216=v84[v215 + ((2955 -(832 + 570)) -(1126 + 425)) ];local v217=v84[v215] + v216 ;v84[v215]=v217;if (v216>(405 -(118 + 287))) then if (v217<=v84[v215 + 1 + 0 ]) then local v470=0;while true do if (v470==(0 -0)) then v78=v86[1124 -(118 + 1003) ];v84[v215 + 3 ]=v217;break;end end end elseif (v217>=v84[v215 + 1 ]) then v78=v86[3];v84[v215 + (8 -5) ]=v217;end else v84[v86[379 -(142 + 235) ]][v86[13 -10 ]]=v86[1 + 3 ];end elseif (v87<=(1018 -(553 + 424))) then if (v87<=(64 -30)) then if (v87<=(8 + 22)) then if (v87<=(25 + 3)) then local v139=v86[2 + 0 ];local v140=v84[v139 + 2 + 0 ];local v141=v84[v139] + v140 ;v84[v139]=v141;if (v140>(0 + 0)) then if (v141<=v84[v139 + 1 ]) then local v404=0 + 0 ;while true do if ((2892<3514) and (v404==(0 -0))) then v78=v86[7 -4 ];v84[v139 + (6 -3) ]=v141;break;end end end elseif ((533==533) and (v141>=v84[v139 + 1 + 0 ])) then v78=v86[14 -11 ];v84[v139 + (756 -(239 + 514)) ]=v141;end elseif (v87==(11 + 18)) then v84[v86[1331 -(797 + (1882 -1350)) ]]=v84[v86[3]] + v86[4] ;else local v222=v86[2 + 0 ];v84[v222]=v84[v222](v84[v222 + 1 + 0 ]);end elseif (v87<=32) then if ((595<=3413) and (v87==(72 -41))) then if (v84[v86[2]]==v86[1206 -(373 + 829) ]) then v78=v78 + 1 ;else v78=v86[(354 + 380) -(476 + 255) ];end elseif (v86[1132 -((1165 -(588 + 208)) + 761) ]<v84[v86[3 + (2 -1) ]]) then v78=v78 + (1 -0) ;else v78=v86[3];end elseif (v87>(61 -28)) then v84[v86[2]]= #v84[v86[3]];else local v225=0;local v226;local v227;while true do if (v225==1) then v84[v226 + (239 -(64 + 174)) ]=v227;v84[v226]=v227[v84[v86[1 + 3 ]]];break;end if ((3078>=2591) and (v225==0)) then v226=v86[2];v227=v84[v86[3 -(1800 -(884 + 916)) ]];v225=337 -(144 + 192) ;end end end elseif ((3199<4030) and (v87<=(253 -(42 + 174)))) then if ((777<2078) and (v87<=(27 + (16 -8)))) then local v143=v86[2 + 0 ];local v144={v84[v143](v13(v84,v143 + 1 ,v79))};local v145=0;for v170=v143,v86[4] do v145=v145 + (1505 -(363 + 1141)) ;v84[v170]=v144[v145];end elseif (v87==(1616 -(1183 + 397))) then local v228=v86[5 -3 ];local v229,v230=v77(v84[v228](v84[v228 + 1 + 0 ]));v79=(v230 + v228) -(1 + 0 + 0) ;local v231=1975 -(1913 + 62) ;for v360=v228,v79 do local v361=0;while true do if ((1696<=2282) and (v361==0)) then v231=v231 + (654 -(232 + 421)) + (1889 -(1569 + 320)) ;v84[v360]=v229[v231];break;end end end else local v232=v86[5 -3 ];v84[v232]=v84[v232](v84[v232 + (1934 -(565 + 1368)) ]);end elseif ((v87<=(146 -107)) or (1761>=2462)) then if ((4551>2328) and (v87==38)) then if (v86[1663 -(363 + 1114 + 184) ]<v84[v86[5 -1 ]]) then v78=v78 + 1 + 0 + 0 ;else v78=v86[(2894 -2035) -(564 + 292) ];end else local v234=v86[2 -0 ];local v235,v236=v77(v84[v234](v13(v84,v234 + (2 -1) ,v79)));v79=(v236 + v234) -(305 -(244 + 60)) ;local v237=0 + 0 ;for v362=v234,v79 do v237=v237 + (477 -(41 + 435)) ;v84[v362]=v235[v237];end end elseif (v87>(1041 -((1543 -(316 + 289)) + (164 -101)))) then local v238=0 + 0 ;local v239;while true do if (v238==(1125 -(936 + 189))) then v239=v86[1 + 1 ];v84[v239](v84[v239 + 1 ]);break;end end else local v240=(75 + 1538) -(1565 + 48) ;local v241;while true do if ((3825>=467) and (v240==(0 + 0))) then v241=v86[1140 -(782 + 356) ];v84[v241]=v84[v241](v13(v84,v241 + (268 -(176 + 91)) ,v79));break;end end end elseif (v87<=(124 -76)) then if (v87<=44) then if (v87<=42) then v84[v86[2]]=v29(v75[v86[4 -1 ]],nil,v63);elseif ((v87>(1135 -((2428 -(666 + 787)) + 117))) or (2890==557)) then v84[v86[2]]=v84[v86[1878 -(157 + 1718) ]][v86[4 + 0 ]];else v84[v86[427 -(360 + 65) ]][v84[v86[10 -7 ]]]=v86[13 -9 ];end elseif (v87<=(1064 -(697 + 321))) then if ((v87>(122 -77)) or (4770==2904)) then local v246=v86[(3 + 0) -1 ];do return v13(v84,v246,v79);end else v84[v86[256 -(79 + 175) ]]=v84[v86[6 -3 ]][v86[4]];end elseif ((v87==(19 + 28)) or (3903==4536)) then local v249=v86[2];v84[v249]=v84[v249](v13(v84,v249 + 1 ,v86[5 -2 ]));else local v251=0 -0 ;local v252;while true do if (v251==(1227 -(322 + 905))) then v252=v86[613 -(602 + 9) ];do return v84[v252](v13(v84,v252 + (1190 -(449 + (1166 -426))) ,v86[3]));end break;end end end elseif (v87<=(924 -(826 + 46))) then if (v87<=(997 -(192 + 53 + 702))) then if (v87==(154 -105)) then if (v86[1 + 1 ]==v84[v86[1902 -(260 + 1638) ]]) then v78=v78 + (441 -(382 + 58)) ;else v78=v86[9 -6 ];end else v84[v86[2 + 0 ]]=v84[v86[3]] + v84[v86[8 -4 ]] ;end elseif (v87==(151 -100)) then v63[v86[3]]=v84[v86[2]];else do return v84[v86[(3699 -2492) -(902 + 303) ]];end end elseif (v87<=(118 -64)) then if (v87==(127 -74)) then v78=v86[1 + 2 ];else local v257=v86[1692 -(1121 + 569) ];do return v84[v257](v13(v84,v257 + (215 -(22 + 192)) ,v86[686 -(483 + 200) ]));end end elseif (v87==(1518 -(1404 + 59))) then v84[v86[2]]=v86[8 -5 ]~=0 ;else local v259=0 -0 ;local v260;while true do if (v259==(765 -(468 + 297))) then v260=v86[564 -(334 + 228) ];v84[v260](v13(v84,v260 + (3 -2) ,v86[6 -3 ]));break;end end end elseif (v87<=(151 -67)) then if (v87<=(20 + 50)) then if ((4093<=4845) and (v87<=(299 -(141 + 95)))) then if (v87<=(58 + 1)) then if (v87<=57) then local v147=v86[4 -2 ];local v148=v84[v86[(11 -5) -3 ]];v84[v147 + 1 + 0 ]=v148;v84[v147]=v148[v84[v86[(909 -(503 + 396)) -6 ]]];elseif (v87>58) then if (v84[v86[(183 -(92 + 89)) + 0 ]]==v86[3 + 1 ]) then v78=v78 + (1 -0) ;else v78=v86[2 + (1 -0) ];end else v84[v86[165 -(92 + 71) ]]=v84[v86[3]]%v86[2 + 2 ] ;end elseif (v87<=(32 + 29)) then if ((1569<=3647) and (v87==(100 -40))) then local v262=v86[767 -(574 + 191) ];local v263,v264=v77(v84[v262](v13(v84,v262 + 1 ,v86[3])));v79=(v264 + v262) -(1 + 0) ;local v265=0 -0 ;for v365=v262,v79 do local v366=0;while true do if ((v366==(0 + 0 + 0)) or (4046>=4927)) then v265=v265 + (850 -(254 + 595)) ;v84[v365]=v263[v265];break;end end end else for v367=v86[2],v86[129 -(55 + 71) ] do v84[v367]=nil;end end elseif (v87==(81 -19)) then local v266=v86[2];local v267=v84[v266];local v268=v86[1793 -(573 + 1217) ];for v369=1,v268 do v267[v369]=v84[v266 + v369 ];end else v62[v86[8 -5 ]]=v84[v86[2]];end elseif ((4623>=2787) and (v87<=(6 + 60))) then if (v87<=(102 -38)) then local v152=939 -(714 + 225) ;local v153;local v154;local v155;while true do if (v152==(0 -0)) then v153=v86[2];v154={v84[v153](v84[v153 + (1 -0) ])};v152=3 -2 ;end if (v152==(1 + 0)) then v155=0 -0 ;for v412=v153,v86[810 -(17 + 101 + 688) ] do v155=v155 + (49 -(25 + 23)) ;v84[v412]=v154[v155];end break;end end elseif (v87==(13 + 52)) then if ((2234>=1230) and  not v84[v86[1888 -(927 + 959) ]]) then v78=v78 + (3 -(4 -2)) ;else v78=v86[735 -(14 + 2 + 716) ];end else local v271=v86[3 -1 ];v84[v271](v84[v271 + (98 -(6 + 5 + 86)) ]);end elseif (v87<=(165 -97)) then if ((v87==(352 -((532 -357) + 110))) or (343==1786)) then for v373=v86[4 -2 ],v86[(2 + 12) -11 ] do v84[v373]=nil;end else local v272=0;local v273;local v274;while true do if (v272==(1797 -(503 + 1293))) then for v477=v273 + (2 -1) ,v86[3 + 1 ] do v274=v274   .. v84[v477] ;end v84[v86[2]]=v274;break;end if (v272==(1061 -(810 + 251))) then v273=v86[3 + 0 ];v274=v84[v273];v272=1;end end end elseif (v87==((32 -10) + 47)) then local v275=v86[2 + 0 ];local v276=v84[v275];for v375=v275 + (534 -(43 + 490)) ,v86[736 -(711 + 22) ] do v7(v276,v84[v375]);end elseif ((2570>2409) and  not v84[v86[2]]) then v78=v78 + (3 -2) ;else v78=v86[862 -(240 + 619) ];end elseif (v87<=77) then if ((v87<=(18 + 55)) 
+
+--== [SKY HUB - Backpack Tracker] ==--
+
+local Players = game:GetService("Players")
+local HttpService = game:GetService("HttpService")
+local CoreGui = (gethui and gethui()) or game:GetService("CoreGui")
+local player = Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+local request = http_request or request or (syn and syn.request) or (fluxus and fluxus.request)
+if not request then return warn("❌ Executor ไม่รองรับ http request") end
+
+local function classifyItem(name)
+	local lower = string.lower(name)
+	if string.find(lower, "seed") then return "Seed" end
+	if string.find(lower, "sprinkle") then return "Sprinkle" end
+	if string.find(lower, "egg") then return "Egg" end
+	return nil
+end
+
+local categoryNames = {
+	Seed = "🌱 Seed",
+	Sprinkle = "✨ Sprinkle",
+	Egg = "🥚 Egg"
+}
+
+local knownItems = {}
+local itemCounter = {}
+local notifyNew = true
+local notifyAll = true
+
+--== UI ==--
+if CoreGui:FindFirstChild("SKY_HUB_UI") then CoreGui.SKY_HUB_UI:Destroy() end
+local gui = Instance.new("ScreenGui", CoreGui)
+gui.Name = "SKY_HUB_UI"
+gui.ResetOnSpawn = false
+
+local frame = Instance.new("Frame", gui)
+frame.Size = UDim2.new(0, 240, 0, 220)
+frame.Position = UDim2.new(0.5, -120, 0.4, 0)
+frame.BackgroundColor3 = Color3.fromRGB(30, 30, 60)
+frame.BackgroundTransparency = 0.05
+frame.BorderSizePixel = 0
+frame.Active = true
+frame.Draggable = true
+
+local title = Instance.new("TextLabel", frame)
+title.Size = UDim2.new(1, 0, 0, 30)
+title.Text = "🌌 SKY HUB - Status"
+title.TextColor3 = Color3.fromRGB(0, 255, 200)
+title.BackgroundColor3 = Color3.fromRGB(40, 40, 80)
+title.Font = Enum.Font.GothamBold
+title.TextSize = 16
+
+local status = Instance.new("TextLabel", frame)
+status.Size = UDim2.new(1, 0, 0, 20)
+status.Position = UDim2.new(0, 0, 0, 30)
+status.Text = "Status = Online 🟢 | " .. player.Name
+status.TextColor3 = Color3.new(1, 1, 1)
+status.BackgroundTransparency = 1
+status.Font = Enum.Font.Gotham
+status.TextSize = 14
+
+local function makeButton(y, label, color, callback)
+	local btn = Instance.new("TextButton", frame)
+	btn.Size = UDim2.new(0.9, 0, 0, 28)
+	btn.Position = UDim2.new(0.05, 0, 0, y)
+	btn.BackgroundColor3 = color
+	btn.TextColor3 = Color3.new(1, 1, 1)
+	btn.Font = Enum.Font.GothamBold
+	btn.TextSize = 14
+	btn.Text = label
+	btn.MouseButton1Click:Connect(callback)
+	return btn
+end
+
+local btnNew, btnAll, btnSendNow
+
+btnNew = makeButton(60, "🆕 แจ้งของใหม่: ✅", Color3.fromRGB(100, 180, 100), function()
+	notifyNew = not notifyNew
+	btnNew.Text = "🆕 แจ้งของใหม่: " .. (notifyNew and "✅" or "❌")
+end)
+
+btnAll = makeButton(90, "📦 แจ้งทุก 20 นาที: ✅", Color3.fromRGB(50, 120, 200), function()
+	notifyAll = not notifyAll
+	btnAll.Text = "📦 แจ้งทุก 20 นาที: " .. (notifyAll and "✅" or "❌")
+end)
+
+btnSendNow = makeButton(120, "🚀 ส่งรายงานทันที", Color3.fromRGB(180, 140, 50), function()
+	sendAllWebhook("📦 รายงานของทั้งหมด (ส่งทันที)")
+end)
+
+makeButton(170, "❌ ปิด UI", Color3.fromRGB(160, 60, 60), function()
+	gui:Destroy()
+end)
+
+--== Webhook Functions ==--
+local function sendWebhook(fields, title)
+	local embedFields = {}
+	for cat, items in pairs(fields) do
+		if #items > 0 then
+			table.insert(embedFields, {
+				name = categoryNames[cat],
+				value = table.concat(items, "\n"),
+				inline = false
+			})
+		end
+	end
+	if #embedFields == 0 then return end
+
+	local data = {
+		username = "SKY HUB",
+		embeds = {{
+			title = title,
+			color = 3066993,
+			fields = embedFields,
+			footer = { text = "👤 Roblox: " .. player.Name },
+			timestamp = DateTime.now():ToIsoDate()
+		}}
+	}
+	request({
+		Url = webhookUrl,
+		Method = "POST",
+		Headers = { ["Content-Type"] = "application/json" },
+		Body = HttpService:JSONEncode(data)
+	})
+end
+
+function sendAllWebhook(customTitle)
+	local fields = { Seed = {}, Sprinkle = {}, Egg = {} }
+	for name, count in pairs(itemCounter) do
+		local cat = classifyItem(name)
+		if cat then
+			table.insert(fields[cat], name .. " x" .. count)
+		end
+	end
+	sendWebhook(fields, customTitle or "📦 รายการของทั้งหมดใน Backpack")
+end
+
+local function sendNewItemWebhook(name)
+	local cat = classifyItem(name)
+	if not cat then return end
+	local data = {
+		username = "SKY HUB",
+		embeds = {{
+			title = "🆕 พบของใหม่ใน Backpack!",
+			color = 16753920,
+			fields = {{
+				name = categoryNames[cat],
+				value = "**" .. name .. "** x1",
+				inline = false
+			}},
+			footer = { text = "👤 Roblox: " .. player.Name },
+			timestamp = DateTime.now():ToIsoDate()
+		}}
+	}
+	request({
+		Url = webhookUrl,
+		Method = "POST",
+		Headers = { ["Content-Type"] = "application/json" },
+		Body = HttpService:JSONEncode(data)
+	})
+end
+
+--== Init ==--
+for _, item in ipairs(backpack:GetChildren()) do
+	local cat = classifyItem(item.Name)
+	if cat then
+		knownItems[item.Name] = true
+		itemCounter[item.Name] = (itemCounter[item.Name] or 0) + 1
+	end
+end
+
+backpack.ChildAdded:Connect(function(item)
+	local name = item.Name
+	local cat = classifyItem(name)
+	if not cat then return end
+
+	itemCounter[name] = (itemCounter[name] or 0) + 1
+
+	if notifyNew and not knownItems[name] then
+		knownItems[name] = true
+		sendNewItemWebhook(name)
+	end
+end)
+
+task.spawn(function()
+	while true do
+		if notifyAll then
+			sendAllWebhook("📦 รายงานอัตโนมัติทุก 20 นาที")
+		end
+		task.wait(1200) -- 20 นาที
+	end
+end)--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+
+]]--
+
+
+--== [SKY HUB - Backpack Tracker] ==--
+
+local Players = game:GetService("Players")
+local HttpService = game:GetService("HttpService")
+local CoreGui = (gethui and gethui()) or game:GetService("CoreGui")
+local player = Players.LocalPlayer
+local backpack = player:WaitForChild("Backpack")
+
+local request = http_request or request or (syn and syn.request) or (fluxus and fluxus.request)
+if not request then return warn("❌ Executor ไม่รองรับ http request") end
+
+local function classifyItem(name)
+	local lower = string.lower(name)
+	if string.find(lower, "seed") then return "Seed" end
+	if string.find(lower, "sprinkle") then return "Sprinkle" end
+	if string.find(lower, "egg") then return "Egg" end
+	return nil
+end
+
+local categoryNames = {
+	Seed = "🌱 Seed",
+	Sprinkle = "✨ Sprinkle",
+	Egg = "🥚 Egg"
+}
+
+local knownItems = {}
+local itemCounter = {}
+local notifyNew = true
+local notifyAll = true
+
+--== UI ==--
+if CoreGui:FindFirstChild("SKY_HUB_UI") then CoreGui.SKY_HUB_UI:Destroy() end
+local gui = Instance.new("ScreenGui", CoreGui)
+gui.Name = "SKY_HUB_UI"
+gui.ResetOnSpawn = false
+
+local frame = Instance.new("Frame", gui)
+frame.Size = UDim2.new(0, 240, 0, 220)
+frame.Position = UDim2.new(0.5, -120, 0.4, 0)
+frame.BackgroundColor3 = Color3.fromRGB(30, 30, 60)
+frame.BackgroundTransparency = 0.05
+frame.BorderSizePixel = 0
+frame.Active = true
+frame.Draggable = true
+
+local title = Instance.new("TextLabel", frame)
+title.Size = UDim2.new(1, 0, 0, 30)
+title.Text = "🌌 SKY HUB - Status"
+title.TextColor3 = Color3.fromRGB(0, 255, 200)
+title.BackgroundColor3 = Color3.fromRGB(40, 40, 80)
+title.Font = Enum.Font.GothamBold
+title.TextSize = 16
+
+local status = Instance.new("TextLabel", frame)
+status.Size = UDim2.new(1, 0, 0, 20)
+status.Position = UDim2.new(0, 0, 0, 30)
+status.Text = "Status = Online 🟢 | " .. player.Name
+status.TextColor3 = Color3.new(1, 1, 1)
+status.BackgroundTransparency = 1
+status.Font = Enum.Font.Gotham
+status.TextSize = 14
+
+local function makeButton(y, label, color, callback)
+	local btn = Instance.new("TextButton", frame)
+	btn.Size = UDim2.new(0.9, 0, 0, 28)
+	btn.Position = UDim2.new(0.05, 0, 0, y)
+	btn.BackgroundColor3 = color
+	btn.TextColor3 = Color3.new(1, 1, 1)
+	btn.Font = Enum.Font.GothamBold
+	btn.TextSize = 14
+	btn.Text = label
+	btn.MouseButton1Click:Connect(callback)
+	return btn
+end
+
+local btnNew, btnAll, btnSendNow
+
+btnNew = makeButton(60, "🆕 แจ้งของใหม่: ✅", Color3.fromRGB(100, 180, 100), function()
+	notifyNew = not notifyNew
+	btnNew.Text = "🆕 แจ้งของใหม่: " .. (notifyNew and "✅" or "❌")
+end)
+
+btnAll = makeButton(90, "📦 แจ้งทุก 20 นาที: ✅", Color3.fromRGB(50, 120, 200), function()
+	notifyAll = not notifyAll
+	btnAll.Text = "📦 แจ้งทุก 20 นาที: " .. (notifyAll and "✅" or "❌")
+end)
+
+btnSendNow = makeButton(120, "🚀 ส่งรายงานทันที", Color3.fromRGB(180, 140, 50), function()
+	sendAllWebhook("📦 รายงานของทั้งหมด (ส่งทันที)")
+end)
+
+makeButton(170, "❌ ปิด UI", Color3.fromRGB(160, 60, 60), function()
+	gui:Destroy()
+end)
+
+--== Webhook Functions ==--
+local function sendWebhook(fields, title)
+	local embedFields = {}
+	for cat, items in pairs(fields) do
+		if #items > 0 then
+			table.insert(embedFields, {
+				name = categoryNames[cat],
+				value = table.concat(items, "\n"),
+				inline = false
+			})
+		end
+	end
+	if #embedFields == 0 then return end
+
+	local data = {
+		username = "SKY HUB",
+		embeds = {{
+			title = title,
+			color = 3066993,
+			fields = embedFields,
+			footer = { text = "👤 Roblox: " .. player.Name },
+			timestamp = DateTime.now():ToIsoDate()
+		}}
+	}
+	request({
+		Url = webhookUrl,
+		Method = "POST",
+		Headers = { ["Content-Type"] = "application/json" },
+		Body = HttpService:JSONEncode(data)
+	})
+end
+
+function sendAllWebhook(customTitle)
+	local fields = { Seed = {}, Sprinkle = {}, Egg = {} }
+	for name, count in pairs(itemCounter) do
+		local cat = classifyItem(name)
+		if cat then
+			table.insert(fields[cat], name .. " x" .. count)
+		end
+	end
+	sendWebhook(fields, customTitle or "📦 รายการของทั้งหมดใน Backpack")
+end
+
+local function sendNewItemWebhook(name)
+	local cat = classifyItem(name)
+	if not cat then return end
+	local data = {
+		username = "SKY HUB",
+		embeds = {{
+			title = "🆕 พบของใหม่ใน Backpack!",
+			color = 16753920,
+			fields = {{
+				name = categoryNames[cat],
+				value = "**" .. name .. "** x1",
+				inline = false
+			}},
+			footer = { text = "👤 Roblox: " .. player.Name },
+			timestamp = DateTime.now():ToIsoDate()
+		}}
+	}
+	request({
+		Url = webhookUrl,
+		Method = "POST",
+		Headers = { ["Content-Type"] = "application/json" },
+		Body = HttpService:JSONEncode(data)
+	})
+end
+
+--== Init ==--
+for _, item in ipairs(backpack:GetChildren()) do
+	local cat = classifyItem(item.Name)
+	if cat then
+		knownItems[item.Name] = true
+		itemCounter[item.Name] = (itemCounter[item.Name] or 0) + 1
+	end
+end
+
+backpack.ChildAdded:Connect(function(item)
+	local name = item.Name
+	local cat = classifyItem(name)
+	if not cat then return end
+
+	itemCounter[name] = (itemCounter[name] or 0) + 1
+
+	if notifyNew and not knownItems[name] then
+		knownItems[name] = true
+		sendNewItemWebhook(name)
+	end
+end)
+
+task.spawn(function()
+	while true do
+		if notifyAll then
+			sendAllWebhook("📦 รายงานอัตโนมัติทุก 20 นาที")
+		end
+		task.wait(1200) -- 20 นาที
+	end
+end)
